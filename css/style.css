@@ -1,0 +1,87 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #000000;
+
+}
+.main-container{
+    display: grid;
+    margin: 20px 0 20px 0;
+    background-color: #202020;
+    border: 1px solid #3d3d3d;
+    border-radius: 25px;
+}
+.button {
+  background-color: #413FBB;
+  border: none;
+  color: white;
+  margin: 20px 40px 20px 40px;
+  padding: 10px 90px;;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 30px/25px;
+}
+.Title-name{
+    margin-top: 0.5%;
+    margin-left: 5%;
+    color: white;
+    font-size: 25px;
+}
+.item1-container{
+    display: inline-block;
+    padding: 5px 5px 5px 5px;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+.item2-container{
+    display: grid;
+    color: white;
+    padding: 2px 2px 2px 2px ;
+    margin-left: 20px;
+    text-align: left;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 2;
+  }
+.cell3-container{
+    display: grid;
+    margin-right: 20px;
+    padding: 2px 2px 2px 2px ;
+    color: white;
+    text-align: right;
+    font-size:  larger;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 3;
+    grid-column-end: 3;
+  }
+  .cell4-container{
+    display: grid;
+    margin-right: 5px;
+    padding: 2px 2px 2px 2px ;
+    color: IndianRed;
+    text-align: right;
+    font-size:  smaller;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 3;
+  }
+
+  .str{ 
+    display: grid;
+    margin: 0 1% 0 1%;
+    border: 1px solid #3d3d3d;
+    grid-template-rows: 25px 25px;
+    grid-template-columns: 42px auto 65px;
+    color: white;
+    text-align: left;
+    position: relative;
+  }
+  .str:hover{
+    background-color: #3d3d3d;
+  }
+
